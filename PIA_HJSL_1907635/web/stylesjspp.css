@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/05/2021, 08:15:40 PM
+    Author     : hecto
+*/
+
+body{
+    background-image: url("Fotos/1677-libros.jpg");
+    background-size:150%;
+}
+
+.titulo{
+    background-color: rgba(250, 250, 250, 0.2);
+    border-style: solid;
+    padding: 2%;
+    Margin: 2%;
+}
+.titulo img{
+    float:right;
+    width: 80px;
+    height: 80px;
+}
+
+.Cuerpo{
+    background-color: rgba(250, 250, 250, 0.2);  
+    padding: 2%;
+    margin: 1%;
+}
+.Cuerpo h1{
+    text-align: center;
+}
+
+.formulario{
+    float: left;
+    display: inline-block;
+    background-color: rgba(250, 250, 250, 0.2);
+    border-style: solid;
+    width: 50%;
+    padding: 2%;
+    margin: 0%;
+}
+.formulario input{
+    background-color: aliceblue;
+}
+
+.boton{
+    background-color: aliceblue;
+    border-radius: 20%;
+}
+.texto{
+    border-style:solid;
+    opacity:25%;
+    width: 80%;
+}
+
+.Datos{
+    align-content: center;
+    display:inline-block;
+    padding: 0%;
+    margin: 0%;
+    width: 45%;
+    overflow: auto;
+}
+
+.tablaDatos{
+    float: right;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 5px;
+    width: 100%;
+    height: 50px;
+}
+thead th{
+    background-color: azure;
+    display:table-cell;
+    font-weight: bold;
+    text-align: center;
+    border-style:solid;
+}
+tbody th{
+    background-color: azure;
+    display:table-cell;
+    font-weight: bold;
+    text-align: center;
+    border-style:solid;
+}
+
